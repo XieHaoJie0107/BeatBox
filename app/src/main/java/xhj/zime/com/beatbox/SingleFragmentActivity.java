@@ -13,7 +13,7 @@ public abstract class SingleFragmentActivity extends AppCompatActivity {
 
     @LayoutRes
     public int getLayoutRes(){
-        return R.layout.fragment_activity;
+        return R.layout.activity_fragment;
     }
 
     @Override
