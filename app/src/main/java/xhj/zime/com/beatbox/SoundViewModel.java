@@ -2,9 +2,6 @@ package xhj.zime.com.beatbox;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
-import android.media.AudioManager;
-import android.media.SoundPool;
-import android.view.View;
 
 public class SoundViewModel extends BaseObservable{
 

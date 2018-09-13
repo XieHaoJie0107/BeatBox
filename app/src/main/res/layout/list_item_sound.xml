@@ -6,10 +6,18 @@
             name="viewModel"
             type="xhj.zime.com.beatbox.SoundViewModel"/>
     </data>
-    <Button
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:text="@{viewModel.title}"
-        tools:text="Sound name"
-        android:onClick="@{() -> viewModel.onButtonClicked()}"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:textColor="?attr/colorPrimary"
+            android:text="@{viewModel.title}"
+            tools:text="Sound name"
+            android:onClick="@{() -> viewModel.onButtonClicked()}"/>
+    </FrameLayout>
+
 </layout>
